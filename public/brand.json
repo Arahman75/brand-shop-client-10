@@ -1,7 +1,38 @@
 [
     {
         "id": 1,
+        "name": "SP 125",
         "brandName": "Honda",
+        "price": "$86752",
+        "description": "Watch 78 Honda SP 125 images to know how SP 125 really looks. Checkout SP 125 pictures in different angles and in great details. Also, checkout 7 Honda SP 125 colour images. You can also download your favourite Honda SP 125 pictures.",
+        "rating": "44",
+        "image": "https://i.ibb.co/QX9R6DK/honda.jpg"
+    },
+    {
+        "id": 2,
+        "name": "CBR150R (ABS)",
+        "brandName": "Honda",
+        "price": "$66752",
+        "description": "CB150R ExMotion is a new innovation surprise from the Japanese motorcycle manufacturer Honda. It's a wonderful motorc",
+        "rating": "40",
+        "image": "https://i.ibb.co/QX9R6DK/honda.jpg"
+    },
+    {
+        "id": 3,
+        "name": " Shine 100",
+        "brandName": "Honda",
+        "price": "$60752",
+        "description": "Honda bikes price starts at ₹ 64,900. Honda has a total of 36 bikes of which 11 models are upcoming which include CB350 Brigade, CB500X, PCX 125, CB750 Hornet, Activa 7G",
+        "rating": "4756",
+        "image": "https://i.ibb.co/QX9R6DK/honda.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Hness CB350",
+        "brandName": "Honda",
+        "price": "$60752",
+        "description": "Honda bikes price starts at ₹ 64,900. Honda has a total of 36 bikes of which 11 models are upcoming which include CB350 Brigade, CB500X, PCX 125, CB750 Hornet, Activa 7G",
+        "rating": "4756",
         "image": "https://i.ibb.co/QX9R6DK/honda.jpg"
     },
     {
