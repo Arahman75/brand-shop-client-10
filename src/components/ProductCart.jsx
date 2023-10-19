@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Honda = () => {
+const ProductCart = () => {
     return (
         <div>
-            <h2>This is honda</h2>
+
         </div>
     );
 };
 
-export default Honda;
+export default ProductCart;
