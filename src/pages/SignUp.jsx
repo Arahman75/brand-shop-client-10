@@ -23,8 +23,9 @@ const SignUp = () => {
 
         createUser(email, password)
             .then(result => {
-                console.log(result);
+                // console.log(result);
                 toast.success('User create successfully');
+                navigate('/');
             })
             .catch(error => {
                 toast.error(error.message)
@@ -34,7 +35,7 @@ const SignUp = () => {
     const handleGoogleLogin = () => {
         loginWithGoogle()
             .then(result => {
-                console.log(result.user);
+                // console.log(result.user);
                 toast.success('User login successfully');
                 navigate('/')
             })

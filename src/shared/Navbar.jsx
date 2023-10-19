@@ -50,10 +50,9 @@ const Navbar = () => {
 
                 {
                     user?.email ? <div className="flex">
-                        <button className="btn btn-sm  btn-ghost">{user.displayName}</button>
+                        <button className="btn btn-sm  btn-ghost">{user?.displayName}</button>
                         <div className="">
-                            {/* <img className='w-10 h-10 rounded-full' src="https://i.ibb.co/0yyt9zG/engagement.jpg" alt="userName" /> */}
-                            <img className='w-10 h-10 rounded-full' src={user.photoURL} alt="userName" />
+                            <img className='w-10 h-10 rounded-full' src={user?.photoURL} alt="userName" />
                         </div>
 
                         <button onClick={handleLogOut} className="btn btn-sm  btn-ghost">Logout</button>
@@ -64,7 +63,6 @@ const Navbar = () => {
                         </Link>
                 }
 
-                {/* <Link to='/login' className="btn">Login</Link> */}
             </div>
         </div>
     );
