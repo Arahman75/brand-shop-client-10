@@ -1,0 +1,129 @@
+[
+    {
+        "id": 1,
+        "name": "SP 125",
+        "brandName": "Honda",
+        "price": "$86752",
+        "description": "Watch 78 Honda SP 125 images to know how SP 125 really looks. Checkout SP 125 pictures in different angles and in great details. Also, checkout 7 Honda SP 125 colour images. You can also download your favourite Honda SP 125 pictures.",
+        "rating": "5",
+        "image": "https://i.ibb.co/QX9R6DK/honda.jpg"
+    },
+    {
+        "id": 2,
+        "name": "CBR150R (ABS)",
+        "brandName": "Honda",
+        "price": "$66752",
+        "description": "CB150R ExMotion is a new innovation surprise from the Japanese motorcycle manufacturer Honda. It's a wonderful motorc",
+        "rating": "4",
+        "image": "https://i.ibb.co/QX9R6DK/honda.jpg"
+    },
+    {
+        "id": 3,
+        "name": " Shine 100",
+        "brandName": "Honda",
+        "price": "$60752",
+        "description": "Honda bikes price starts at ₹ 64,900. Honda has a total of 36 bikes of which 11 models are upcoming which include CB350 Brigade, CB500X, PCX 125, CB750 Hornet, Activa 7G",
+        "rating": "3",
+        "image": "https://i.ibb.co/QX9R6DK/honda.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Hness CB350",
+        "brandName": "Honda",
+        "price": "$60752",
+        "description": "Honda bikes price starts at ₹ 64,900. Honda has a total of 36 bikes of which 11 models are upcoming which include CB350 Brigade, CB500X, PCX 125, CB750 Hornet, Activa 7G",
+        "rating": "4",
+        "image": "https://i.ibb.co/QX9R6DK/honda.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Red 2010 Volvo",
+        "brandName": "Volvo",
+        "price": "$60752",
+        "description": " Red 2010 Volvo XC60 T6 AWD R-Design midsize SUV the safest car to date. Isolated on gray background with clippi",
+        "rating": "4",
+        "image": "https://i.ibb.co/4PGMyWd/toyota.jpg"
+    },
+    {
+        "id": 6,
+        "name": "VOLVO LM NS60L BATTERY",
+        "brandName": "Volvo",
+        "price": "$6052",
+        "description": "Product Information, Brand: VOLVO, Product Name: VOLVO LM NS60 BATTERY, Voltage: 12V, AH: 45 (AH @ 20 Hour Rate), Cold Cranking",
+        "rating": "3",
+        "image": "https://i.ibb.co/4PGMyWd/toyota.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Volvo XC90",
+        "brandName": "Volvo",
+        "price": "$6052",
+        "description": "There are a total of 6 Volvo models currently on sale in India. These include 5 SUVs and 1 Sedan. Volvo has 1 upcoming car launches in India - the Volvo EX90.",
+        "rating": "5",
+        "image": "https://i.ibb.co/4PGMyWd/toyota.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Volvo 9600 intercity luxury bus",
+        "brandName": "Volvo",
+        "price": "$6052",
+        "description": "Volvo Buses India launches Volvo 9600 intercity luxury bus - The Hindu BusinessLine.",
+        "rating": "5",
+        "image": "https://i.ibb.co/4PGMyWd/toyota.jpg"
+    },
+    {
+        "id": 9,
+        "name": "E4500 and J4500 bus",
+        "brandName": "BMW",
+        "price": "$6052",
+        "description": "MCI turned to BMW Group Designworks USA, which led the designs of the E4500 and J4500. The company's designers have worked on such.",
+        "rating": "5",
+        "image": "https://i.ibb.co/4PGMyWd/toyota.jpg"
+    },
+    {
+        "id": 10,
+        "name": "FRANKFURT",
+        "brandName": "BMW",
+        "price": "$6052",
+        "description": "MW will expand its minivan lineup with the seven-seat 2-series Gran Tourer that will go on sale in Europe in June..",
+        "rating": "4",
+        "image": "https://i.ibb.co/4PGMyWd/toyota.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Pickup Truck",
+        "brandName": "BMW",
+        "price": "$6052",
+        "description": "BMW Secretly Built an E30 Pickup Truck in 1986",
+        "rating": "4",
+        "image": "https://i.ibb.co/4PGMyWd/toyota.jpg"
+    },
+    {
+        "id": 12,
+        "name": "BMW X5 M SUV",
+        "brandName": "BMW",
+        "price": "$6052",
+        "description": "The BMW X5 M Competition is an impressive performance SUV but it's hugely expensive to run",
+        "rating": "4",
+        "image": "https://i.ibb.co/4PGMyWd/toyota.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Saab 900 Turbo Convertible",
+        "brandName": "Saab",
+        "price": "$6052",
+        "description": "This Saab 900 Turbo Convertible was stored for over 30 years waiting to be driven.",
+        "rating": "4",
+        "image": "https://i.ibb.co/Rp5M8MG/saab.jpg"
+    },
+    {
+        "id": 5,
+        "brandName": "Tesla",
+        "image": "https://i.ibb.co/pjrzYKK/tesla.jpg"
+    },
+    {
+        "id": 6,
+        "brandName": "Toyota",
+        "image": "https://i.ibb.co/nRRjxvS/volvo.jpg"
+    }
+]
