@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import ProductBanner from '../components/ProductBanner';
 import ProductCart from '../components/ProductCart';
 
 const Products = () => {
-
-    const products = useLoaderData()
+    const loadedProducts = useLoaderData()
+    const [products, setProducts] = useState(loadedProducts)
 
     return (
         <div>
@@ -16,7 +16,12 @@ const Products = () => {
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
                 {
-                    products.map(product => <ProductCart key={product._id} product={product}></ProductCart>)
+                    products.map(product => <ProductCart
+                        key={product._id}
+                        product={product}
+                        products={products}
+                        setProducts={setProducts}
+                    ></ProductCart>)
                 }
             </div>
         </div>
