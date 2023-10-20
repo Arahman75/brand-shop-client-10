@@ -12,6 +12,7 @@ import ErrorPage from "../pages/ErrorPage";
 import PrivateRoute from "../provider/PrivateRoute";
 import Products from "../pages/Products";
 import UpdateProduct from "../pages/UpdateProduct";
+import ProductDetails from "../pages/ProductDetails";
 
 const router = createBrowserRouter([
     {
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Home></Home>,
-                loader: () => fetch('http://localhost:5000/brands')
+                loader: () => fetch('https://brand-shop-server-as10-lkff23d4q-abdur-rahmans-projects.vercel.app/brands')
             },
             {
                 path: '/signup',
@@ -47,12 +48,18 @@ const router = createBrowserRouter([
             {
                 path: '/products',
                 element: <Products></Products>,
-                loader: () => fetch('http://localhost:5000/products')
+                loader: () => fetch('https://brand-shop-server-as10-lkff23d4q-abdur-rahmans-projects.vercel.app/products')
             },
             {
                 path: '/updateProducts/:id',
                 element: <UpdateProduct></UpdateProduct>,
-                loader: ({ params }) => fetch(`http://localhost:5000/products/${params.id}`)
+                loader: ({ params }) => fetch(`https://brand-shop-server-as10-lkff23d4q-abdur-rahmans-projects.vercel.app/products/${params.id}`)
+            }, {
+                path: '/productDetails/:id',
+                element: <PrivateRoute>
+                    <ProductDetails></ProductDetails>
+                </PrivateRoute>,
+                loader: ({ params }) => fetch(`https://brand-shop-server-as10-lkff23d4q-abdur-rahmans-projects.vercel.app/products/${params.id}`)
             }
 
         ]

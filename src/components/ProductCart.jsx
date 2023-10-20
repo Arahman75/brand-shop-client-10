@@ -19,7 +19,7 @@ const ProductCart = ({ product, products, setProducts }) => {
             if (result.isConfirmed) {
 
 
-                fetch(`http://localhost:5000/products/${_id}`, {
+                fetch(`https://brand-shop-server-as10-lkff23d4q-abdur-rahmans-projects.vercel.app/${_id}`, {
                     method: "DELETE"
                 })
                     .then(res => res.json())
@@ -52,7 +52,8 @@ const ProductCart = ({ product, products, setProducts }) => {
                 </div>
                 <div className="card-actions justify-end">
                     <div className="btn-group btn-group-vertical space-y-4">
-                        <button className="btn">Details</button>
+                        <Link to={`/productDetails/${_id}`}>
+                            <button className="btn">Details</button></Link>
                         <Link to={`/updateProducts/${_id}`}><button className="btn">Update</button></Link>
                         <button onClick={() => handleDelete(_id)} className="btn bg-red-500">X</button>
                     </div>
