@@ -5,8 +5,8 @@ import Swal from 'sweetalert2';
 const ProductCart = ({ product, products, setProducts }) => {
     const { _id, image, name, brandName, price, description, rating } = product;
 
-    const handleDelete = (id) => {
-        console.log(id);
+    const handleDelete = (_id) => {
+        console.log(_id);
         Swal.fire({
             title: 'Are you sure?',
             text: "You won't be able to revert this!",
@@ -19,7 +19,7 @@ const ProductCart = ({ product, products, setProducts }) => {
             if (result.isConfirmed) {
 
 
-                fetch(`https://brand-shop-server-as10-lkff23d4q-abdur-rahmans-projects.vercel.app/${_id}`, {
+                fetch(`https://brand-shop-server-as10-lkff23d4q-abdur-rahmans-projects.vercel.app/products/${_id}`, {
                     method: "DELETE"
                 })
                     .then(res => res.json())
@@ -28,10 +28,10 @@ const ProductCart = ({ product, products, setProducts }) => {
                         if (data.deletedCount > 0) {
                             Swal.fire(
                                 'Deleted!',
-                                'Your product has been deleted.',
+                                'Your product delete successfully.',
                                 'success'
                             )
-                            const remaining = products.filter(product => product._id !== id);
+                            const remaining = products.filter(cofe => cofe._id !== _id);
                             setProducts(remaining)
                         }
                     })
@@ -39,6 +39,9 @@ const ProductCart = ({ product, products, setProducts }) => {
             }
         })
     }
+
+
+
     return (
         <div className="card card-side bg-base-100 shadow-xl">
             <figure><img src={image} alt="Movie" /></figure>
